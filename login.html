@@ -16,20 +16,21 @@
         </div>
         <div class="input-group">
             <div class="nome">
-                <label for="name-or-email">Digite seu e-mail ou telefone</label> <br>
+                <label for="name-or-email" id="labels">Digite seu<span class="span-color"> e-mail</span> ou <span class="span-color">telefone</span></label> <br>
                 <input type="text" name="" id="name-or-email" placeholder="Seu e-mail ou telefone">
             </div>
             <div class="senha">
-                <label for="senha">Digite sua senha</label> <br>
+                <label for="senha" id="labels">Digite sua <span class="span-color">senha</span></label> <br>
                 <input type="password" name="" id="senha" placeholder="Digite sua senha ">
             </div>
         </div>
         <div class="check">
-            <input type="radio" name="" id="lembrar">
-            <label for="lembrar">Lembrar de mim </label>
+            <input type="checkbox" name="" id="lembrar">
+            <label for="lembrar" id="labels">Lembrar da próxima vez</label>
         </div>
+        <p class="text">Não tem uma conta ? <a href="cadastro.php" class="a">Cadastre-se.</a></p>
         <div class="button-submit">
-            <button type="submit" class="sub"> Continuar </button>
+            <button type="submit" class="sub" id="labels"> Continuar </button>
         </div>
     </div>
 </body>
