@@ -50,7 +50,7 @@ a {
   font-family: "poppins";
 }
 .buttons-actions-person {
-  background-color: rgba(160, 160, 160, 0.144) ;
+  background-color: rgba(160, 160, 160, 0.144);
   border: 1px solid rgb(0, 0);
   color: black;
   border-radius: 20px;
@@ -128,7 +128,26 @@ a {
     margin-left: 33px;
     padding-top: 10px;
   }
-  .open{
+  .open {
     display: block;
   }
+}
+/*css do login*/
+
+.body{
+  background-color: #e0e5ec;
+}
+.container {
+  background-color: #e0e5ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+  border-radius: 20px;
 }
