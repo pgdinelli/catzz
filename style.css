@@ -91,7 +91,7 @@ a {
     cursor: pointer;
   }
   .mobile-menu {
-    display: flex;
+    display: none;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -126,5 +126,8 @@ a {
   .buttons-actions-bag {
     margin-left: 33px;
     padding-top: 10px;
+  }
+  .open{
+    display: block;
   }
 }
