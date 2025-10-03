@@ -50,13 +50,14 @@ a {
   font-family: "poppins";
 }
 .buttons-actions-person {
-  background-color: rgba(128, 128, 128, 0.144) ;
+  background-color: rgba(160, 160, 160, 0.144) ;
   border: 1px solid rgb(0, 0);
   color: black;
   border-radius: 20px;
   padding: 6px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-left: 30px;
+  outline: none;
 }
 .mobile-menu-icon {
   display: none;
