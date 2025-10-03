@@ -58,7 +58,7 @@ a {
 .mobile-menu {
   display: none;
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 920px) {
   .nav-bar {
     padding: 30px;
   }
@@ -81,8 +81,24 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
   }
-  .nav-search{
+  .nav-search {
     width: 365px;
+  }
+  .nav-search:hover {
+    width: 370px;
+  }
+  .buttons-actions-person {
+    margin-top: 15px;
+  }
+  .buttons-actions {
+    margin-left: 33px;
+    padding-top: 15px;
+  }
+  .text-a{
+    font-size: ;
+    text-decoration: none;
+    color: rgb(62, 62, 62);
   }
 }
