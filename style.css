@@ -83,6 +83,7 @@ a {
   }
   .mobile-menu-icon,
   button {
+    color: black;
     display: block;
     border: none;
     background-color: transparent;
