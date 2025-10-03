@@ -135,11 +135,11 @@ a {
 /*css do login*/
 
 .body {
-  background-color: #e0e5ec;
+  background-color: #eaedf2;
 }
 .container {
-  padding: 50px;
-  background-color: #e0e5ec;
+  padding: 80px;
+  background-color: #eaedf2;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -151,8 +151,9 @@ a {
   flex-direction: column;
 }
 .nome {
+  padding-top: 60px;
   display: block;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .senha {
   display: block;
@@ -162,10 +163,31 @@ a {
   display: flex;
   padding-bottom: 70px;
 }
-.button-submit {
+.title {
+  color: #db3641;
+  font-size: 1em;
+}
+.button-submit .sub {
+  border: none;
+  background-color: transparent;
   margin: auto;
   padding: 8px 45px;
   display: block;
   border-radius: 15px;
   box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+}
+.sub {
+  border: none;
+  font-family: "poppins";
+  font-size: 1.2em;
+}
+@media (max-width: 768px){
+  .title{
+    font-size: 0.7em;
+  }
+  .nome {
+  padding-top: 40px;
+  display: block;
+  padding-bottom: 30px;
+}
 }
