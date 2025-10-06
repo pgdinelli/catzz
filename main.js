@@ -75,7 +75,7 @@ function animateMenu(element, start, end, duration, callback = () => { }) {
 }
 
 new Swiper('.card-wrapper', {
-    loop: true,
+    loop: false,
     spaceBetween: 160,
 
     //paginations bullet
@@ -99,6 +99,12 @@ new Swiper('.card-wrapper', {
     },
     1024: {
         slidesPerView: 5
+    },
+    1560: {
+        slidesPerView: 6
+    },
+    2060: {
+        slidesPerView: 7
     },
 }
 });
