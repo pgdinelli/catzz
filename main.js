@@ -1,5 +1,5 @@
 // O tempo total da animação (em milissegundos)
-const ANIMATION_DURATION = 1000; // 1 segundos representação em milissegundos
+const ANIMATION_DURATION = 800; // 1 segundos representação em milissegundos
 
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
