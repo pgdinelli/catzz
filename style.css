@@ -256,8 +256,13 @@ a {
 
 /* css for card main */
 
-.section-1 {
+.title-prod{
   margin-top: 100px;
+  font-weight: 500;
+  padding: 30px;
+}
+
+.section-1 {
   display: flex;
   justify-content: center;
   align-items: center;
