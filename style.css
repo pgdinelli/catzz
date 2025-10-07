@@ -256,10 +256,18 @@ a {
 
 /* css for card main */
 
-.title-prod{
+.title-prod {
   margin-top: 100px;
   font-weight: 500;
   padding: 30px;
+  padding-left: 20px;
+}
+.title-prod-2 {
+  padding: 30px;
+  padding-left: 20px;
+  margin-top: 100px;
+  font-weight: 500;
+  z-index: 1;
 }
 
 .section-1 {
@@ -267,8 +275,13 @@ a {
   justify-content: center;
   align-items: center;
 }
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card-list .card-item .card-link {
-  height: 100vh;
+  height: 50%;
   width: 200px;
   border-radius: 15px;
   display: block;
@@ -282,7 +295,7 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.178);
   padding: 8px;
 }
-.desc-group{
+.desc-group {
   margin: auto;
   flex-direction: column;
   display: flex;
@@ -302,4 +315,7 @@ a {
   text-decoration: line-through;
   font-size: 0.6em;
   color: gray;
+}
+.custo {
+  color: #175ea8;
 }

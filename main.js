@@ -98,13 +98,13 @@ new Swiper('.card-wrapper', {
         slidesPerView: 4
     },
     1024: {
-        slidesPerView: 5
-    },
-    1560: {
         slidesPerView: 6
     },
-    2060: {
+    1560: {
         slidesPerView: 7
+    },
+    2060: {
+        slidesPerView: 8
     },
 }
 });
