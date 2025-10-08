@@ -138,11 +138,9 @@ a {
   background-color: #eaedf2;
 }
 .container {
-  margin-top: 100px;
   padding: 30px;
   background-color: #eaedf2;
   display: flex;
-  justify-content: space-between;
   position: absolute;
   top: 50%;
   left: 50%;
