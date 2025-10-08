@@ -51,8 +51,7 @@ a {
   font-family: "poppins";
 }
 .buttons-actions-person {
-  background-color: rgba(160, 160, 160, 0.144);
-  border: 1px solid rgb(0, 0);
+  border: none;
   color: black;
   border-radius: 20px;
   padding: 6px;
@@ -77,7 +76,7 @@ a {
     font-family: "poppins";
   }
   .search-box {
-    display: none;
+    display: none ;
   }
   .buttons-box {
     display: none;
@@ -139,6 +138,7 @@ a {
   background-color: #eaedf2;
 }
 .container {
+  margin-top: 100px;
   padding: 30px;
   background-color: #eaedf2;
   display: flex;
@@ -206,10 +206,10 @@ a {
 #labels {
   font-size: 1.1em;
 }
-.title h1::after {
+.title h2::after {
   content: "";
   display: block;
-  width: 15rem;
+  width: 10rem;
   height: 0.3rem;
   background-color: #db3641;
   margin: auto;
@@ -318,4 +318,5 @@ a {
 }
 .custo {
   color: #175ea8;
+  font-weight: bolder;
 }
