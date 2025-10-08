@@ -106,10 +106,9 @@ a {
   .buttons-actions-person {
     margin-top: 15px;
     margin-top: 35px;
-    border: 1px solid black;
+    border: none;
     border-radius: 20px;
     padding: 6px;
-    background-color: rgba(128, 128, 128, 0.144);
   }
   .buttons-actions {
     margin-left: 33px;
