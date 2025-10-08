@@ -9,30 +9,33 @@
 </head>
 
 <body class="body">
-    <div class="container">
-        <div class="title">
-            <img src="img-font/logoTransparent.png" alt="" class="img-logo">
-            <h2>Faça seu login</h2>
-        </div>
-        <div class="input-group">
-            <div class="nome">
-                <label for="name-or-email" id="labels">Digite seu<span class="span-color"> e-mail</span> ou <span class="span-color">telefone</span></label> <br>
-                <input type="text" name="" id="name-or-email" placeholder="Seu e-mail ou telefone">
+    <form action="#" method="get">
+        <div class="container">
+            <div class="title">
+                <img src="img-font/logoTransparent.png" alt="" class="img-logo">
+                <h2>Faça seu login</h2>
             </div>
-            <div class="senha">
-                <label for="senha" id="labels">Digite sua <span class="span-color">senha</span></label> <br>
-                <input type="password" name="" id="senha" placeholder="Digite sua senha ">
+            <div class="input-group">
+                <div class="nome">
+                    <label for="name-or-email" id="labels">Digite seu<span class="span-color"> e-mail</span> ou <span
+                            class="span-color">telefone</span></label> <br>
+                    <input type="text" name="" id="name-or-email" placeholder="Seu e-mail ou telefone" required>
+                </div>
+                <div class="senha">
+                    <label for="senha" id="labels">Digite sua <span class="span-color">senha</span></label> <br>
+                    <input type="password" name="" id="senha" placeholder="Digite sua senha " required>
+                </div>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="" id="lembrar">
+                <label for="lembrar" id="labels">Lembrar da próxima vez</label>
+            </div>
+            <p class="text">Não tem uma conta ? <a href="cadastro.php" class="a">Cadastre-se.</a></p>
+            <div class="button-submit">
+                <button type="submit" class="sub" id="labels"> Continuar </button>
             </div>
         </div>
-        <div class="check">
-            <input type="checkbox" name="" id="lembrar">
-            <label for="lembrar" id="labels">Lembrar da próxima vez</label>
-        </div>
-        <p class="text">Não tem uma conta ? <a href="cadastro.php" class="a">Cadastre-se.</a></p>
-        <div class="button-submit">
-            <button type="submit" class="sub" id="labels"> Continuar </button>
-        </div>
-    </div>
+    </form>
 </body>
 
 </html>
